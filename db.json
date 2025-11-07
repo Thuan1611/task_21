@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "Product A",
-      "price": 220,
-      "description": "This is product A",
-      "thumbnail": "https://picsum.photos/200/300.webp",
-      "stock": 100,
-      "categoryId": 1
-    },
-    {
       "id": 2,
       "title": "Product B",
       "price": 180,
@@ -56,9 +47,26 @@
     }
   ],
   "categories": [
-    { "id": 1, "title": "Technology", "slug": "technology" },
-    { "id": 2, "title": "Clothing", "slug": "clothing" },
-    { "id": 3, "title": "Others", "slug": "others" }
+    {
+      "id": 1,
+      "title": "Technology",
+      "slug": "technology"
+    },
+    {
+      "id": 2,
+      "title": "Clothing",
+      "slug": "clothing"
+    },
+    {
+      "id": 3,
+      "title": "Others",
+      "slug": "others"
+    },
+    {
+      "title": "213321",
+      "slug": "312321",
+      "id": 4
+    }
   ],
   "users": []
 }

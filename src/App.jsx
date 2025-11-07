@@ -1,11 +1,12 @@
 import React from "react";
+import AppRoute from "./routes";
 
 const App = () => {
-	return (
-		<>
-			<h1>Chúc các bạn làm bài tốt!</h1>
-		</>
-	);
+  return (
+    <>
+      <AppRoute />
+    </>
+  );
 };
 
 export default App;
